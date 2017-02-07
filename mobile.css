@@ -1,0 +1,227 @@
+
+* {
+    margin: 0;
+    padding: 0 2px;;
+    font-family: monospace;
+}
+/*body{width: auto;*/
+/*display: flex;*/}
+body{position: absolute;
+padding: 1em !important;
+font-size: 12px;}
+
+
+h1 {
+    font-size: 3.4em;
+    /*    width: 50%;*/
+}
+
+h2{
+    font-size: 1.7em;
+        text-align: center;
+    padding: 1em;
+    line-height: 1em;
+}
+
+.button-style{
+/*    display: inline-block;*/
+    text-decoration: none;
+    background: #132434;
+    color: white;
+    padding: 0.5em 0;
+    border-radius: 5px;
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.button-readmore{
+    width: auto;
+    text-align: center;
+
+}
+
+.button-style:active{opacity: 0.8;}
+
+header {
+    background: url("images/img01.jpg");
+/*    padding: 3em 0 2em 0;*/
+height: 900px;
+/*    width: 320px;*/
+/*    display: flex;*/
+}
+
+#wrapper-top {
+/*    margin: 0 auto;*/
+/*    width: 480px;*/
+/*    border: 1px solid black;*/
+    /*justify-content: space-around;*/
+}
+
+#menu {
+/*    flex-flow: row;*/
+/*    position: relative;*/
+/*    width: 100%;*/
+}
+
+#menu h1 {
+/*    flex: 2;*/
+/*justify-content: center;*/
+    text-align: center;
+/*    width: 89%;*/
+/*    position: relative;*/
+/*    margin: 0 auto 20px;*/
+}
+
+#menu ul {
+    display: flex;
+/*    flex: 2;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+    flex-flow: column;
+    margin: 6em 0;
+    
+}
+
+header #menu ul li {
+    display: flex;
+/*    flex-direction: row;*/
+    justify-content: center;
+/*        flex: 1;*/
+    margin: 2em 0;
+    list-style: none;
+/*    display: inline-block;*/
+/*    flex-flow: row wrap;*/
+/*width:80%;*/
+}
+
+#flowers-header {
+/*    background-size: 100%;*/
+/*    background: black;*/
+    background: url("images/img02.jpg")   no-repeat;
+    background-size: 100%;
+/*width: 400px;*/
+/*            margin: 100px auto;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*        width: 250px;*/
+    height: 400px;
+/*    flex: 1;*/
+}
+
+.img-shaddow {
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.69);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.69);
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    margin: 1em 0;*/
+}
+
+
+/*
+#wrapper-top {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+margin: 0 2%;
+
+width: 76%;
+}
+*/
+
+#first-section {
+    position: relative;
+/*    display: flex;*/
+/*        flex-flow: row wrap;*/
+/*        justify-content: space-around;*/
+    margin: 4em auto;
+    flex-flow: column;
+    line-height: 2em;
+/*    width: 80%;*/
+/*    padding: 0 0 3em;*/
+    border-bottom: 5px solid #DCDCDC;
+}
+
+section .article-top {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.article-top a{margin: 2em 0 2em;}
+
+#second {
+/*    position: relative;*/
+/*    display: flex;*/
+    flex-flow: column;
+/*    width: 80%;*/
+    margin: 0 auto 5em;
+}
+
+#second #second-left {
+/*    display: flex;*/
+/*    flex: 2;*/
+/*    text-align: left;*/
+    flex-flow: column;
+/*    line-height: 2em;*/
+}
+
+#second #second-left h1 {
+}
+#second #second-left p {
+    line-height: 2em
+}
+#buttons-sec-seclt{width: 100%;
+    
+/*    width: 480px:*/
+}
+
+#second #second-left a{
+    display: block;
+    margin: 0 0 1em;
+/*    width: 480px;*/
+    
+}
+
+#second #second-right {
+    display: flex;
+    flex: 1;
+    line-height: 2em;
+    align-content: space-between;
+    flex-flow: column;
+    text-align: center;
+    
+}
+}
+#second #second-right ul li a{
+}
+#second #second-right ul li{
+    background: url("images/img04.jpg") left center no-repeat;
+    text-align: center;
+    list-style: none;
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    line-height: 4em;
+        height: 100px;
+    background: url("images/img05.jpg");
+    height: 100%;
+    color: white;
+    padding: 1em 0;
+    
+}
+footer ul li{list-style: none;}
+/* .aside-box{*/
+/*    position: relative;*/
+/*    display: flex;}*/
+
+
+
